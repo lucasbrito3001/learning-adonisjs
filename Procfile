@@ -1,3 +1,3 @@
-release: ENV_SILENT=true node ace migration
-web: ENV_SILENT=true node ace migration
+release: ENV_SILENT=true node ace migration:run
+web: ENV_SILENT=true node ace migration:run
 start
